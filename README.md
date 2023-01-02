@@ -8,7 +8,7 @@ This sample uses WS1 Access as SAML 2.0 Identity Provider.
 Import Sample_SAML_App.zip resource config from `src/main/resources` directory in this repository into WS1 Access Web Apps Catalog. Then assign users to this application.
 
 ### Configure WS1 Access IdP metadata in this SAML Application
-Modify `spring.security.saml2.relyingparty.registration.ws1access.assertingparty.metadata` property in application.properties to point to IdP metadata URL of WS1 Access tenant.
+Modify `saml.idp.metadata-uri` property in application.properties to point to IdP metadata URL of WS1 Access tenant.
 
 ### Running the SAML SP server
 ```shell
